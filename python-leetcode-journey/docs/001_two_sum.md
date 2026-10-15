@@ -124,11 +124,6 @@ def two_sum(nums: List[int], target: int) -> List[int]:
 - El complemento convierte la pregunta «¿qué par suma el objetivo?» en «¿ya encontré el número que necesito?».
 - `enumerate` es útil cuando necesitamos tanto el valor como su índice.
 
-## 10. Interview explanation | Explicación para entrevista
-
-**English:** “I use a hash map to store each number and its index as I traverse the array. For each number, I calculate the complement needed to reach the target. If that complement is already in the map, I return the stored index and the current index. This gives `O(n)` average time complexity and `O(n)` space complexity.”
-
-**Español:** «Utilizo un diccionario para guardar cada número y su índice mientras recorro la lista. Para cada número calculo el complemento necesario para alcanzar el objetivo. Si ese complemento ya está en el diccionario, devuelvo el índice almacenado y el índice actual. Esto ofrece complejidad temporal promedio `O(n)` y espacial `O(n)`.»
 
 ## Source | Fuente
 
